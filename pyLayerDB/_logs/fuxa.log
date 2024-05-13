@@ -1,0 +1,21 @@
+2024-05-11T09:21:59.546Z [info] FUXA V.1.1.18
+2024-05-11T09:21:59.593Z [info] daqstorage: init successful!
+2024-05-11T09:22:00.423Z [info] api: init successful!
+2024-05-11T09:22:00.428Z [info] plugin-installed node-opcua 2.78.0
+2024-05-11T09:22:00.429Z [info] plugin-installed modbus-serial 8.0.9
+2024-05-11T09:22:00.429Z [info] plugin-installed node-bacnet 0.2.4
+2024-05-11T09:22:00.430Z [info] plugin-installed node-snap7 1.0.6
+2024-05-11T09:22:00.433Z [info] currentstorage.connected-to _db\currentTagReadings.db database
+2024-05-11T09:22:00.434Z [info] usrstorage.connected C:\trash\University\DIPLOM\pyLayerDB\_appdata\users.fuxap.db database
+2024-05-11T09:22:00.435Z [info] prjstorage.connected-to C:\trash\University\DIPLOM\pyLayerDB\_appdata\project.fuxap.db database
+2024-05-11T09:22:00.461Z [info] currentstorage init successful!
+2024-05-11T09:22:00.466Z [info] users.usrstorage-init successful!
+2024-05-11T09:22:00.621Z [info] project.prjstorage-init-successful!
+2024-05-11T09:22:00.626Z [info] plugin-installed nodepccc 0.1.17
+2024-05-11T09:22:00.626Z [info] runtime init plugins successful!
+2024-05-11T09:22:00.631Z [info] users.usrstorage-set-default successful!
+2024-05-11T09:22:00.632Z [info] runtime init users successful!
+2024-05-11T09:22:00.648Z [info] project.prjstorage-set-default-successful!
+2024-05-11T09:22:00.649Z [info] runtime init project successful!
+2024-05-11T09:22:00.649Z [info] FUXA init in  1148ms.
+2024-05-11T09:22:00.662Z [info] daqstorage reset!
