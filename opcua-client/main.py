@@ -10,7 +10,7 @@ if __name__ == "__main__":
         try:
             client.connect()
             recipe_name = get_recipe_name(client, node_path)
-            if len(recipe_name) > 0:
+            if recipe_name > 0:
                 recipe = select_recipe(recipe_name)           
                 obj = get_recipe_object(recipe)
                 send_recipe(obj)

@@ -27,6 +27,23 @@ INSERT INTO stage (time_ustavka, temperature_ustavka, gas, pressure) VALUES
 (3.0, 300.0, 30.0, 3.0),
 (4.0, 400.0, 40.0, 4.0),
 (5.0, 500.0, 50.0, 5.0);
-
 INSERT INTO recipe (name_recipe, stage_1_id, stage_2_id, stage_3_id, stage_4_id, stage_5_id) VALUES
 ('Test Recipe', 1, 2, 3, 4, 5);
+
+INSERT INTO stage (time_ustavka, temperature_ustavka, gas, pressure) VALUES
+(2.0, 100.0, 5.0, 10.0),
+(4.0, 200.0, 7.0, 10.0),
+(5.0, 600.0, 10.0, 10.0),
+(5.0, 600.0, 10.0, 10.0),
+(3.0, 300.0, 10.0, 10.0);
+INSERT INTO recipe (name_recipe, stage_1_id, stage_2_id, stage_3_id, stage_4_id, stage_5_id) VALUES
+('Recipe 2', 6, 7, 8, 9, 10);
+
+INSERT INTO stage (time_ustavka, temperature_ustavka, gas, pressure) VALUES
+(2.0, 100.0, 5.0, 10.0),
+(4.0, 200.0, 7.0, 10.0),
+(5.0, 650.0, 10.0, 10.0),
+(5.0, 700.0, 10.0, 10.0),
+(3.0, 800.0, 10.0, 10.0);
+INSERT INTO recipe (name_recipe, stage_1_id, stage_2_id, stage_3_id, stage_4_id, stage_5_id) VALUES
+('Recipe 3', 11, 12, 13, 14, 15);
