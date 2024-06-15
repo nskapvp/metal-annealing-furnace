@@ -28,6 +28,7 @@ module.exports = {
     // The following property can be used to listen on a specific interface. For
     // example, the following would only allow connections from the local machine.
     //uiHost: "127.0.0.1",
+    //uiHost: "26.57.23.113",
 
     // Used to identify a directory of static content
     // that should be served at http://localhost:1881/.
@@ -54,9 +55,9 @@ module.exports = {
     //},
 
     // Used to enable security, authentication and authorization and crypt Token
-    //secureEnabled: true,
-    //secretCode: 'frangoteam751',
-    //tokenExpiresIn: '1h'  // '1h'=1hour, 60=60seconds, '1d'=1day
+    secureEnabled: true,
+    secretCode: 'frangoteam751',
+    tokenExpiresIn: '1h'  // '1h'=1hour, 60=60seconds, '1d'=1day
 
     // Enable GPIO in Raspberry
     // To enable only by Raspberry Host
