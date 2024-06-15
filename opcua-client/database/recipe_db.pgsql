@@ -47,3 +47,20 @@ INSERT INTO stage (time_ustavka, temperature_ustavka, gas, pressure) VALUES
 (3.0, 800.0, 10.0, 10.0);
 INSERT INTO recipe (name_recipe, stage_1_id, stage_2_id, stage_3_id, stage_4_id, stage_5_id) VALUES
 ('Recipe 3', 11, 12, 13, 14, 15);
+
+INSERT INTO stage (time_ustavka, temperature_ustavka, gas, pressure) VALUES
+(120.0, 100.0, 5.0, 10.0),
+(240.0, 200.0, 7.0, 10.0),
+(300.0, 650.0, 10.0, 10.0),
+(300.0, 700.0, 10.0, 10.0),
+(180.0, 800.0, 10.0, 10.0);
+INSERT INTO recipe (name_recipe, stage_1_id, stage_2_id, stage_3_id, stage_4_id, stage_5_id) VALUES
+('Recipe 4', 16, 17, 18, 19, 20);
+
+SELECT * FROM stage;
+SELECT * FROM recipe;
+
+TRUNCATE stage, recipe;
+
+DROP TABLE stage;
+DROP TABLE recipe;
