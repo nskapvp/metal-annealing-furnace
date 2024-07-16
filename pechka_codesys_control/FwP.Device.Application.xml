@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="3.5.14.30" runtimeid="3.5.14.40" libversion="3.5.14.0" compiler="3.5.14.40" lmm="3.5.14.0" profile="CODESYS V3.5 SP14 Patch 4+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="FwP" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="g2">
+        <Node name="_from_alarm_test_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="Contactor_out1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Contactor_out2" type="T_BOOL" access="ReadWrite" />
+        <Node name="Contactor_out3" type="T_BOOL" access="ReadWrite" />
+        <Node name="Contactor_out4" type="T_BOOL" access="ReadWrite" />
+        <Node name="current_time1_min" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time1_sec" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time2_min" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time2_sec" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time3_min" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time3_sec" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time4_min" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time4_sec" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time5_min" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time5_sec" type="T_REAL" access="ReadWrite" />
+        <Node name="current_time_process" type="T_REAL" access="ReadWrite" />
+        <Node name="current_ustavka_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="current_ustavka_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="current_ustavka_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="flag_timer_end" type="T_BOOL" access="ReadWrite" />
+        <Node name="gas_sensor" type="T_REAL" access="ReadWrite" />
+        <Node name="gas_ventil_close" type="T_BOOL" access="ReadWrite" />
+        <Node name="gas_ventil_open" type="T_BOOL" access="ReadWrite" />
+        <Node name="gas_ventil_value" type="T_WORD" access="ReadWrite" />
+        <Node name="heat_over" type="T_BOOL" access="ReadWrite" />
+        <Node name="heating_zone_1_sensor_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_1_ustavka_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_2_sensor_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_2_ustavka_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_3_sensor_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_3_ustavka_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_4_sensor_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="heating_zone_4_ustavka_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_heating_zone_1" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_heating_zone_2" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_heating_zone_3" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_heating_zone_4" type="T_REAL" access="ReadWrite" />
+        <Node name="PID_out_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="pressure_sensor" type="T_REAL" access="ReadWrite" />
+        <Node name="pressure_ventil_close" type="T_BOOL" access="ReadWrite" />
+        <Node name="pressure_ventil_open" type="T_BOOL" access="ReadWrite" />
+        <Node name="pressure_ventil_value" type="T_WORD" access="ReadWrite" />
+        <Node name="PWM_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="PWM_out_heating_zone_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWM_out_heating_zone_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWM_out_heating_zone_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWM_out_heating_zone_4" type="T_BOOL" access="ReadWrite" />
+        <Node name="PWM_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="recipe" type="T_INT" access="ReadWrite" />
+        <Node name="stage1_heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="stage2_heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="stage3_heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="stage4_heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="stage5_heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="start" type="T_BOOL" access="ReadWrite" />
+        <Node name="still_time" type="T_REAL" access="ReadWrite" />
+        <Node name="stop" type="T_BOOL" access="ReadWrite" />
+        <Node name="total_time_process" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_actual_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_actual_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_actual_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka1_time" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_actual_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_actual_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_actual_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka2_time" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_actual_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_actual_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_actual_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka3_time" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_actual_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_actual_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_actual_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka4_time" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_actual_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_actual_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_actual_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_gas" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_pressure" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_temperature" type="T_REAL" access="ReadWrite" />
+        <Node name="ustavka5_time" type="T_REAL" access="ReadWrite" />
+      </Node>
+      <Node name="HeatST">
+        <Node name="HeatingControl_stage1_start" type="T_BOOL" access="ReadWrite" />
+        <Node name="HeatingControl_stage2_start" type="T_BOOL" access="ReadWrite" />
+        <Node name="HeatingControl_stage3_start" type="T_BOOL" access="ReadWrite" />
+        <Node name="HeatingControl_stage4_start" type="T_BOOL" access="ReadWrite" />
+        <Node name="HeatingControl_stage5_start" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

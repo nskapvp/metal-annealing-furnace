@@ -1,0 +1,50 @@
+2024-06-17T12:18:35.599Z [info] FUXA V.1.1.19
+2024-06-17T12:18:35.655Z [info] daqstorage: init successful!
+2024-06-17T12:18:36.289Z [info] api: init successful!
+2024-06-17T12:18:36.295Z [info] plugin-installed node-opcua 2.123.0
+2024-06-17T12:18:36.296Z [info] plugin-installed modbus-serial 8.0.16
+2024-06-17T12:18:36.297Z [info] plugin-installed node-bacnet 0.2.4
+2024-06-17T12:18:36.297Z [info] plugin-installed node-snap7 1.0.6
+2024-06-17T12:18:36.298Z [info] runtime init plugins successful!
+2024-06-17T12:18:36.306Z [info] currentstorage.connected-to _db\currentTagReadings.db database
+2024-06-17T12:18:36.307Z [info] usrstorage.connected C:\trash\University\DIPLOM\metal-annealing-furnace\opcua-client\_appdata\users.fuxap.db database
+2024-06-17T12:18:36.308Z [info] prjstorage.connected-to C:\trash\University\DIPLOM\metal-annealing-furnace\opcua-client\_appdata\project.fuxap.db database
+2024-06-17T12:18:36.353Z [info] currentstorage init successful!
+2024-06-17T12:18:36.358Z [info] users.usrstorage-init successful!
+2024-06-17T12:18:36.726Z [info] project.prjstorage-init-successful!
+2024-06-17T12:18:36.740Z [info] users.usrstorage-set-default successful!
+2024-06-17T12:18:36.741Z [info] runtime init users successful!
+2024-06-17T12:18:36.751Z [info] project.prjstorage-set-default-successful!
+2024-06-17T12:18:36.752Z [info] runtime init project successful!
+2024-06-17T12:18:36.753Z [info] FUXA init in  1207ms.
+2024-06-17T12:18:36.770Z [info] daqstorage reset!
+2024-06-18T06:56:41.743Z [info] FUXA V.1.1.19
+2024-06-18T06:56:41.877Z [info] daqstorage: init successful!
+2024-06-18T06:56:43.103Z [info] api: init successful!
+2024-06-18T06:56:43.116Z [info] plugin-installed node-opcua 2.123.0
+2024-06-18T06:56:43.118Z [info] plugin-installed modbus-serial 8.0.16
+2024-06-18T06:56:43.119Z [info] plugin-installed node-bacnet 0.2.4
+2024-06-18T06:56:43.119Z [info] plugin-installed node-snap7 1.0.6
+2024-06-18T06:56:43.120Z [info] runtime init plugins successful!
+2024-06-18T06:56:43.128Z [info] currentstorage.connected-to _db\currentTagReadings.db database
+2024-06-18T06:56:43.129Z [info] usrstorage.connected C:\trash\University\DIPLOM\metal-annealing-furnace\opcua-client\_appdata\users.fuxap.db database
+2024-06-18T06:56:43.130Z [info] prjstorage.connected-to C:\trash\University\DIPLOM\metal-annealing-furnace\opcua-client\_appdata\project.fuxap.db database
+2024-06-18T06:56:43.149Z [info] currentstorage init successful!
+2024-06-18T06:56:43.151Z [info] project.prjstorage-init-successful!
+2024-06-18T06:56:43.153Z [info] runtime init project successful!
+2024-06-18T06:56:43.158Z [info] users.usrstorage-init successful!
+2024-06-18T06:56:43.159Z [info] runtime init users successful!
+2024-06-18T06:56:43.160Z [info] FUXA init in  1509ms.
+2024-06-18T06:56:43.207Z [info] daqstorage reset!
+2024-06-18T06:56:43.209Z [info] alarms check start
+2024-06-18T06:56:43.210Z [info] notificator check start
+2024-06-18T06:56:43.211Z [info] scripts.start-checkstatus
+2024-06-18T06:56:43.211Z [info] jobs check start
+2024-06-18T06:56:43.217Z [info] FUXA started!
+2024-06-18T06:56:43.237Z [info] WebServer is running http://127.0.0.1:1881/
+2024-06-18T06:56:44.222Z [info] alarmsstorage.connected-to C:\trash\University\DIPLOM\metal-annealing-furnace\opcua-client\_appdata\alarms.fuxap.db database.
+2024-06-18T06:56:44.242Z [info] alarms.alarmstorage-init-successful!
+2024-06-18T06:56:57.796Z [info] socket.io client connected
+2024-06-18T06:56:57.803Z [info] socket.io client connected
+2024-06-18T06:56:58.743Z [info] socket.io client connected
+2024-06-18T06:57:03.722Z [info] alarms.stop-checkstatus!

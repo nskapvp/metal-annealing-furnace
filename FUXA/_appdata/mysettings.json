@@ -1,0 +1,28 @@
+{
+    "language": "ru",
+    "uiPort": 1881,
+    "secureEnabled": true,
+    "tokenExpiresIn": "1h",
+    "secureOnlyEditor": false,
+    "broadcastAll": true,
+    "smtp": {
+        "host": "",
+        "port": 587,
+        "mailsender": "",
+        "username": ""
+    },
+    "daqstore": {
+        "type": "influxDB",
+        "retention": "year1",
+        "url": "http://localhost:8086",
+        "organization": "vyatsu",
+        "credentials": {
+            "token": "5gYlBAvWKyaRwS8EeQJ7wqEmnswaV3wVmz93zZOCgtaE1a8GCar-U19ELRWYaToBN6M1jz50LPwoFyzUO17Fpw=="
+        },
+        "bucket": "pechka"
+    },
+    "alarms": {
+        "retention": "year1"
+    },
+    "logFull": false
+}
