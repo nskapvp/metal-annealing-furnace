@@ -18,6 +18,13 @@ The system consists of:
 - temperature, pressure and gas sensors
 - actuators for heating and gas/pressure control
 
+# Management system architecture: 
+![image](https://github.com/user-attachments/assets/14073141-cf6e-411f-9689-b624737f0493)
+
+
+# Example of screen forms (control panel):
+![image](https://github.com/user-attachments/assets/fd8e3d82-9e51-48d5-bceb-c2398da58a3f)
+
 ## Repository structure
 
 - pechka_codesys_control/ — PLC/CODESYS project
@@ -39,9 +46,4 @@ The system consists of:
 
 This is an educational bachelor’s project and engineering prototype. It is not intended to be used directly in production without additional validation, safety review and adaptation to real equipment.
 
-Management system architecture: 
-![image](https://github.com/user-attachments/assets/14073141-cf6e-411f-9689-b624737f0493)
 
-
-Example of screen forms (control panel):
-![image](https://github.com/user-attachments/assets/fd8e3d82-9e51-48d5-bceb-c2398da58a3f)
